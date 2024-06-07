@@ -12,8 +12,8 @@ const ProjectsData = [
       "A portfolio website to view my projects and a bit about myself",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/https://github.com/ahas11/Portfolio",
-    previewUrl: "/",
+    gitUrl: "https://github.com/ahas11/Portfolio",
+    previewUrl: "https://portfolio-uzne.vercel.app/",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const ProjectsData = [
     description: "Project 2 Description",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/https://github.com/ahas11/TaskManager",
+    gitUrl: "https://github.com/ahas11/TaskManager",
     previewUrl: "/",
   },
 ];
