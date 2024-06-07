@@ -22,6 +22,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-7 place-self-center text-center sm:text-left justify-self-start"
+          style = {{maxWidth:"100%"}}
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal justify-self-start font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-500">
@@ -30,9 +31,9 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Abdouallah Swelam",
+                "Abdouallah",
                 1000,
-                "a Software Developer",
+                "a Developer",
                 1000,
               ]}
               wrapper="span"
@@ -46,7 +47,7 @@ const HeroSection = () => {
           <div>
             <Link href="#contact" passHref>
               <button
-                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4
+                className="px-11 py-3 w-full sm:w-fit rounded-full mr-4
               bg-gradient-to-br from-primary-600 via-secondary-500 to-primary-600 hover:bg-slate-200 text-white"
               >
                 Hire Me

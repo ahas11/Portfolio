@@ -8,19 +8,20 @@ const ProjectsData = [
   {
     id: 1,
     title: "Next.js Portfolio Website",
-    description: "A portfolio website to view my projects and a bit about myself",
+    description:
+      "A portfolio website to view my projects and a bit about myself",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "/https://github.com/ahas11/Portfolio",
     previewUrl: "/",
   },
   {
     id: 2,
     title: "Task Manager",
     description: "Project 2 Description",
-    image: "/images/projects/project-pic.png",
+    image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "/https://github.com/ahas11/TaskManager",
     previewUrl: "/",
   },
 ];
@@ -45,7 +46,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-2">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
