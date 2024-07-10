@@ -18,7 +18,7 @@ const ProjectsData = [
   {
     id: 2,
     title: "Task Manager",
-    description: "Project 2 Description",
+    description: "A task management application designed to help you organize and prioritize tasks efficiently.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ahas11/TaskManager",
