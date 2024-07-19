@@ -13,7 +13,7 @@ const ProjectsData = [
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ahas11/Portfolio",
-    previewUrl: "https://portfolio-uzne.vercel.app/",
+    previewUrl: "https://abdouallahportfolio.vercel.app/",
   },
   {
     id: 2,
